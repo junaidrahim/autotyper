@@ -1,6 +1,7 @@
 # autotyper
 
-A simple command line tool to paste the contents of a file to the cursor after a delay of few seconds.
+A simple command line tool to write the contents of a file to the cursor after a delay of few seconds. It uses
+the `pyautogui` package to simulate the keystrokes to write out the file where the cursor is placed.
 
 
 ## Installation
@@ -31,7 +32,8 @@ $ autotyper -f bubblesort.c -d 10
 Writing file content to cursor in 10 sec...
 ```
 
-In this time, position your cursor to where you want to type out the text. Can be used in online exams
+In this time, position your cursor to where you want to type out the text, when the delay ends, 
+the content of the file will be written to the cursor. Can be used in online exams
 to write the content of a file, where copy paste is not allowed in the text box.
 
 ## License
