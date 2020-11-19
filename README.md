@@ -2,6 +2,7 @@
 
 A simple command line tool to paste the contents of a file to the cursor after a delay of few seconds.
 
+
 ## Installation
 
 Make sure you have Python3 installed on your system. 
@@ -10,7 +11,7 @@ Make sure you have Python3 installed on your system.
 pip install autotyper
 ```
 
-Just run that and you will have it ready to go on your system.
+You will have the `autotyper` command available to go on your system.
 
 ## Usage
 
