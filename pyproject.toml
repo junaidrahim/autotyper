@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "autotyper"
-version = "0.1.0"
+version = "1.0"
 description = "Paste the contents of a file to the cursor after a specified delay"
 authors = ["Junaid Rahim <junaidrahim8d@gmail.com>"]
 keywords=["autotyper", "copy-paste"]
@@ -16,9 +16,6 @@ include=[
 [tool.poetry.dependencies]
 python = "^3.8"
 PyAutoGUI = "^0.9.52"
-
-[tool.poetry.dev-dependencies]
-pytest = "^5.2"
 
 [tool.poetry.scripts]
 autotyper = 'autotyper:main'
