@@ -36,7 +36,7 @@ def main():
 
     args = parser.parse_args()
 
-    print(f"Writing to cursor in {args.delay} sec...")
+    print(f"Writing file content to cursor in {args.delay} sec...")
     time.sleep(args.delay)
 
     file_content = args.filename.read()
