@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "autotyper"
-version = "1.0"
+version = "1.0.1"
 description = "Paste the contents of a file to the cursor after a specified delay"
 authors = ["Junaid Rahim <junaidrahim8d@gmail.com>"]
 keywords=["autotyper", "copy-paste"]
